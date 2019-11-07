@@ -33,7 +33,7 @@ public class loginPage {
         String [] usernames = {"storemanager219", "storemanager220", "storemanager221"};
         String  passwords = "UserUser123";
 
-            String res = "";
+
            for (int i=0; i<usernames.length;i++) {
               BrowserUtils.wait(2);
 
@@ -75,29 +75,7 @@ public class loginPage {
                BrowserUtils.wait(2);
 
         }
-    //    WebElement input = driver.findElement(By.id("prependedInput"));
-     //   input.sendKeys("storemanager220");
-        //put valid password: UserUser123
-     //   WebElement input2 = driver.findElement(By.id("prependedInput2"));
-     //   input2.sendKeys("UserUser123");
-        //find LOGIN button
-     //   WebElement button = driver.findElement(By.id("_submit"));
-     //   BrowserUtils.wait(2);
-        //click on that button
-     //   button.click();
 
-/*
-        String expectedUrl = "https://qa2.vytrack.com/";
-        String actualURL = driver.getCurrentUrl();
-
-        if(actualURL.equals(expectedUrl)){
-            System.out.println("Test Passed, You are in the Home Page");
-        }else {
-            System.out.println("Test Failed");
-        }
-
-        BrowserUtils.wait(2);
-*/
         driver.close();
 
     }
@@ -140,7 +118,7 @@ public class loginPage {
     public static void main(String[] args) {
 
         loginPage obj = new loginPage();
-          //  obj.LoginWithValidCredentials();
+          // obj.LoginWithValidCredentials();
              obj.LoginWithInvalidCredentials();
 
     }
