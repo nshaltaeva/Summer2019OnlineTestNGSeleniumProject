@@ -104,12 +104,19 @@ public class loginPage {
             button.click();
 
             //finding elements with message "Invalid username or password"
-            String InvalidMessage = "//*[@id=\"login-form\"]/fieldset/div[1]/div";
-            WebElement element = driver.findElement(By.xpath(InvalidMessage));
+            String ExpectedInvalidMessage = "Invalid user name or password.";
+            String ActualInvalidMessage = "//*[@id=\"login-form\"]/fieldset/div[1]/div";
+            WebElement element = driver.findElement(By.xpath(ActualInvalidMessage));
             BrowserUtils.wait(2);
             //verifying that message "Invalid username or password"
             System.out.println(element.getText());
 
+            if(ExpectedInvalidMessage.equals(element.getText())){
+                BrowserUtils.wait(2);
+                System.out.println("Test Passed");
+            }else {
+                System.out.println("Test Failed");
+            }
             driver.close();
         }
 
