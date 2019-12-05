@@ -135,11 +135,11 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.BrowserUtils" />
       <item itemvalue="TestNG.Activities_CalendarEvents1.test2" />
       <item itemvalue="TestNG.NewCalendarEventsTests.test1" />
       <item itemvalue="TestNG.NewCalendarEventsTests" />
       <item itemvalue="TestNG.CreateCalendarEventTests.test1" />
-      <item itemvalue="Application.BrowserUtils" />
     </list>
     <recent_temporary>
       <list>
