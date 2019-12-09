@@ -49,39 +49,18 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.NewCalendarEventsTests.test1">
-    <configuration name="BrowserUtils" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="utils.BrowserUtils" />
+  <component name="RunManager" selected="TestNG.C:/Users/nshal/IdeaProjects/Summer2019OnlineTestNGSeleniumProject/testng.xml">
+    <configuration name="C:/Users/nshal/IdeaProjects/Summer2019OnlineTestNGSeleniumProject/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Summer2019OnlineTestNGSeleniumProject" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="utils.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Activities_CalendarEvents1.test2" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Summer2019OnlineTestNGSeleniumProject" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tests.VYTrack.Homework.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="tests.VYTrack.Homework" />
-      <option name="MAIN_CLASS_NAME" value="tests.VYTrack.Homework.Activities_CalendarEvents1" />
-      <option name="METHOD_NAME" value="test2" />
-      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/testng.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
       <properties />
       <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CreateCalendarEventTests.test1" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="CreateACarTests.test1" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Summer2019OnlineTestNGSeleniumProject" />
       <extension name="coverage">
         <pattern>
@@ -90,26 +69,9 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="tests.VYTrack" />
-      <option name="MAIN_CLASS_NAME" value="tests.VYTrack.CreateCalendarEventTests" />
+      <option name="MAIN_CLASS_NAME" value="tests.VYTrack.CreateACarTests" />
       <option name="METHOD_NAME" value="test1" />
       <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="NewCalendarEventsTests" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Summer2019OnlineTestNGSeleniumProject" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tests.VYTrack.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="tests.VYTrack" />
-      <option name="MAIN_CLASS_NAME" value="tests.VYTrack.NewCalendarEventsTests" />
-      <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
       <method v="2">
@@ -134,20 +96,56 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SmokeTest.Test1" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Summer2019OnlineTestNGSeleniumProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.VYTrack.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests.VYTrack" />
+      <option name="MAIN_CLASS_NAME" value="tests.VYTrack.SmokeTest" />
+      <option name="METHOD_NAME" value="Test1" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SmokeTest.smokeTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Summer2019OnlineTestNGSeleniumProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.VYTrack.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests.VYTrack" />
+      <option name="MAIN_CLASS_NAME" value="tests.VYTrack.SmokeTest" />
+      <option name="METHOD_NAME" value="smokeTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
-      <item itemvalue="Application.BrowserUtils" />
-      <item itemvalue="TestNG.Activities_CalendarEvents1.test2" />
       <item itemvalue="TestNG.NewCalendarEventsTests.test1" />
-      <item itemvalue="TestNG.NewCalendarEventsTests" />
-      <item itemvalue="TestNG.CreateCalendarEventTests.test1" />
+      <item itemvalue="TestNG.SmokeTest.smokeTest" />
+      <item itemvalue="TestNG.CreateACarTests.test1" />
+      <item itemvalue="TestNG.SmokeTest.Test1" />
+      <item itemvalue="TestNG.C:/Users/nshal/IdeaProjects/Summer2019OnlineTestNGSeleniumProject/testng.xml" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.C:/Users/nshal/IdeaProjects/Summer2019OnlineTestNGSeleniumProject/testng.xml" />
+        <item itemvalue="TestNG.SmokeTest.Test1" />
+        <item itemvalue="TestNG.CreateACarTests.test1" />
+        <item itemvalue="TestNG.SmokeTest.smokeTest" />
         <item itemvalue="TestNG.NewCalendarEventsTests.test1" />
-        <item itemvalue="Application.BrowserUtils" />
-        <item itemvalue="TestNG.CreateCalendarEventTests.test1" />
-        <item itemvalue="TestNG.NewCalendarEventsTests" />
-        <item itemvalue="TestNG.Activities_CalendarEvents1.test2" />
       </list>
     </recent_temporary>
   </component>

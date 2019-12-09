@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Regression">
+    <test name="LoginTests">
+        <classes>
+            <class name="tests.VYTrack.LoginTests"/>
+        </classes>
+    </test>
+</suite>
+
+<!-- comments cntl +/ -->
