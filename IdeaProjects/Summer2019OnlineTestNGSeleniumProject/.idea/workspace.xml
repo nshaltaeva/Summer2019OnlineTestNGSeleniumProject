@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="552e0d78-b49b-4ec9-aea6-d5f70c6830d4" name="Default Changelist" comment="" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -20,36 +19,53 @@
     <option name="importingSettings">
       <MavenImportingSettings>
         <option name="importAutomatically" value="true" />
+        <option name="vmOptionsForImporter" value="-Xmx768m" />
       </MavenImportingSettings>
     </option>
   </component>
   <component name="ProjectId" id="1SFuIxYZDSEazfdvVcpEU14XHHl" />
+  <component name="ProjectViewState">
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1573746044697" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.importing" />
+    <property name="settings.editor.selected.configurable" value="preferences.fileTypes" />
   </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="tests.day8" />
     </key>
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-  </component>
-  <component name="RunManager" selected="TestNG.C:/Users/nshal/IdeaProjects/Summer2019OnlineTestNGSeleniumProject/testng.xml">
+  <component name="RunManager" selected="TestNG.LoginTestsWithExcel.loginTest">
+    <configuration name="LoginTestsWithExcel" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="tests.day20_ddt_with_excel.LoginTestsWithExcel" />
+      <module name="Summer2019OnlineTestNGSeleniumProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.day20_ddt_with_excel.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="C:/Users/nshal/IdeaProjects/Summer2019OnlineTestNGSeleniumProject/smoke_test.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Summer2019OnlineTestNGSeleniumProject" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/smoke_test.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="C:/Users/nshal/IdeaProjects/Summer2019OnlineTestNGSeleniumProject/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Summer2019OnlineTestNGSeleniumProject" />
       <option name="SUITE_NAME" value="$PROJECT_DIR$/testng.xml" />
@@ -60,53 +76,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CreateACarTests.test1" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="LoginTestsWithExcel.loginTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Summer2019OnlineTestNGSeleniumProject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="tests.VYTrack.*" />
+          <option name="PATTERN" value="tests.day20_ddt_with_excel.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="tests.VYTrack" />
-      <option name="MAIN_CLASS_NAME" value="tests.VYTrack.CreateACarTests" />
-      <option name="METHOD_NAME" value="test1" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="NewCalendarEventsTests.test1" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Summer2019OnlineTestNGSeleniumProject" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tests.VYTrack.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="tests.VYTrack" />
-      <option name="MAIN_CLASS_NAME" value="tests.VYTrack.NewCalendarEventsTests" />
-      <option name="METHOD_NAME" value="test1" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SmokeTest.Test1" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Summer2019OnlineTestNGSeleniumProject" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tests.VYTrack.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="tests.VYTrack" />
-      <option name="MAIN_CLASS_NAME" value="tests.VYTrack.SmokeTest" />
-      <option name="METHOD_NAME" value="Test1" />
+      <option name="PACKAGE_NAME" value="tests.day20_ddt_with_excel" />
+      <option name="MAIN_CLASS_NAME" value="tests.day20_ddt_with_excel.LoginTestsWithExcel" />
+      <option name="METHOD_NAME" value="loginTest" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -133,30 +113,32 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="TestNG.NewCalendarEventsTests.test1" />
       <item itemvalue="TestNG.SmokeTest.smokeTest" />
-      <item itemvalue="TestNG.CreateACarTests.test1" />
-      <item itemvalue="TestNG.SmokeTest.Test1" />
       <item itemvalue="TestNG.C:/Users/nshal/IdeaProjects/Summer2019OnlineTestNGSeleniumProject/testng.xml" />
+      <item itemvalue="TestNG.C:/Users/nshal/IdeaProjects/Summer2019OnlineTestNGSeleniumProject/smoke_test.xml" />
+      <item itemvalue="Application.LoginTestsWithExcel" />
+      <item itemvalue="TestNG.LoginTestsWithExcel.loginTest" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.C:/Users/nshal/IdeaProjects/Summer2019OnlineTestNGSeleniumProject/testng.xml" />
-        <item itemvalue="TestNG.SmokeTest.Test1" />
-        <item itemvalue="TestNG.CreateACarTests.test1" />
+        <item itemvalue="TestNG.LoginTestsWithExcel.loginTest" />
+        <item itemvalue="Application.LoginTestsWithExcel" />
         <item itemvalue="TestNG.SmokeTest.smokeTest" />
-        <item itemvalue="TestNG.NewCalendarEventsTests.test1" />
+        <item itemvalue="TestNG.C:/Users/nshal/IdeaProjects/Summer2019OnlineTestNGSeleniumProject/smoke_test.xml" />
+        <item itemvalue="TestNG.C:/Users/nshal/IdeaProjects/Summer2019OnlineTestNGSeleniumProject/testng.xml" />
       </list>
     </recent_temporary>
   </component>
   <component name="ServiceViewManager">
-    <option name="allServicesViewState">
-      <serviceView>
-        <treeState>
-          <expand />
-          <select />
-        </treeState>
-      </serviceView>
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
     </option>
   </component>
   <component name="SvnConfiguration">
@@ -171,5 +153,38 @@
       <updated>1571171588335</updated>
     </task>
     <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="168" y="120" width="1200" height="584" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1575938384561">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="168" y="120" width="1200" height="584" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1575938384561" />
+    <state width="1493" height="263" key="GridCell.Tab.0.bottom" timestamp="1576015093632">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="263" key="GridCell.Tab.0.bottom/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1576015093632" />
+    <state width="1493" height="263" key="GridCell.Tab.0.center" timestamp="1576015093632">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="263" key="GridCell.Tab.0.center/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1576015093632" />
+    <state width="1493" height="263" key="GridCell.Tab.0.left" timestamp="1576015093632">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="263" key="GridCell.Tab.0.left/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1576015093632" />
+    <state width="1493" height="263" key="GridCell.Tab.0.right" timestamp="1576015093632">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="263" key="GridCell.Tab.0.right/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1576015093632" />
+    <state x="279" y="57" key="SettingsEditor" timestamp="1576011359722">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="279" y="57" key="SettingsEditor/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1576011359722" />
+    <state x="477" y="239" key="com.intellij.ide.util.TipDialog" timestamp="1576010567226">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="477" y="239" key="com.intellij.ide.util.TipDialog/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1576010567226" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Summer2019OnlineTestNGSeleniumProject$C__Users_nshal_IdeaProjects_Summer2019OnlineTestNGSeleniumProject_smoke_test_xml.ic" NAME="$PROJECT_DIR$/smoke_test.xml Coverage Results" MODIFIED="1575939386292" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>

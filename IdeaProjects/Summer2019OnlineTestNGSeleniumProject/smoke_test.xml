@@ -1,0 +1,27 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name = "Smoke test">
+    <test name="Smoke test QA1">
+        <parameter name="test" value="smoke_test_QA1"></parameter>
+        <parameter name= "env_url" value="https://qa1.vytrack.com/"></parameter>
+        <classes>
+            <class name="tests.VYTrack.SmokeTest"/>
+        </classes>
+    </test>
+
+    <test name="Smoke test QA2">
+        <parameter name="test" value="smoke_test_QA2"></parameter>
+        <parameter name= "env_url" value="https://qa2.vytrack.com/"></parameter>
+        <classes>
+            <class name="tests.VYTrack.SmokeTest"/>
+        </classes>
+    </test>
+
+    <test name="Smoke test QA3">
+        <parameter name="test" value="smoke_test_QA3"></parameter>
+        <parameter name= "env_url" value="https://qa3.vytrack.com/"></parameter>
+        <classes>
+            <class name="tests.VYTrack.SmokeTest"/>
+        </classes>
+    </test>
+
+</suite>

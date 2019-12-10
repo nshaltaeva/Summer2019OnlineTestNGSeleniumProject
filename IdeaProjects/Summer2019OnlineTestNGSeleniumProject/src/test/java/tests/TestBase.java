@@ -3,14 +3,12 @@ package tests;
 import com.aventstack.extentreports.ExtentReports;
 import com.aventstack.extentreports.ExtentTest;
 import com.aventstack.extentreports.reporter.ExtentHtmlReporter;
+import com.beust.jcommander.Parameter;
 import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebElement;
 import org.testng.ITestResult;
-import org.testng.annotations.AfterMethod;
-import org.testng.annotations.AfterTest;
-import org.testng.annotations.BeforeMethod;
-import org.testng.annotations.BeforeTest;
+import org.testng.annotations.*;
 import utils.BrowserUtils;
 import utils.ConfigurationReader;
 import utils.Driver;
@@ -23,18 +21,29 @@ import java.io.IOException;
 //Every test class will extend testbase class
 public abstract class TestBase {
 
-    protected ExtentReports extentReports;
-    protected ExtentHtmlReporter extentHtmlReporter;
-    protected ExtentTest extentTest;
+    protected static ExtentReports extentReports;
+    protected static ExtentHtmlReporter extentHtmlReporter;
+    protected static ExtentTest extentTest;
 
     @BeforeTest
-    public void beforeTest(){
-    String filePath = System.getProperty("user.dir") + "/test-output/report.html";
+    @Parameters({"test","env_url"})
+    public void beforeTest(@Optional String test, @Optional String env_url){
+        String reportName = "report";
+        if(test != null){
+            reportName = test;
+        }
+    String filePath = System.getProperty("user.dir") + "/test-output/"+reportName+".html";
     extentReports = new ExtentReports();
     extentHtmlReporter = new ExtentHtmlReporter(filePath);
     extentReports.attachReporter(extentHtmlReporter);
     extentHtmlReporter.config().setReportName("Vytrack Test Results");
-    extentReports.setSystemInfo("Environment","QA1");
+
+    //system information
+        String env = ConfigurationReader.getProperty("url");
+        if(env_url != null){
+            env = env_url;
+        }
+    extentReports.setSystemInfo("Environment",env);
     extentReports.setSystemInfo("Browser",ConfigurationReader.getProperty("browser"));
     extentReports.setSystemInfo("OS", System.getProperty("os.name"));
     }
@@ -45,8 +54,14 @@ public abstract class TestBase {
     }
 
     @BeforeMethod
-    public void setup(){
+    @Parameters("env_url")
+    public void setup(@Optional String env_url){
         String url = ConfigurationReader.getProperty("url");
+        //if name parameter was set, then use it
+        //if it's null that means it was not set
+        if(env_url != null){
+            url=env_url;
+        }
         Driver.get().get(url);
 
     }
