@@ -113,10 +113,10 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.LoginTestsWithExcel" />
       <item itemvalue="TestNG.SmokeTest.smokeTest" />
       <item itemvalue="TestNG.C:/Users/nshal/IdeaProjects/Summer2019OnlineTestNGSeleniumProject/testng.xml" />
       <item itemvalue="TestNG.C:/Users/nshal/IdeaProjects/Summer2019OnlineTestNGSeleniumProject/smoke_test.xml" />
-      <item itemvalue="Application.LoginTestsWithExcel" />
       <item itemvalue="TestNG.LoginTestsWithExcel.loginTest" />
     </list>
     <recent_temporary>
@@ -159,30 +159,30 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="168" y="120" width="1200" height="584" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1575938384561" />
-    <state width="1493" height="263" key="GridCell.Tab.0.bottom" timestamp="1576015093632">
+    <state width="1493" height="263" key="GridCell.Tab.0.bottom" timestamp="1576015717982">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="263" key="GridCell.Tab.0.bottom/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1576015093632" />
-    <state width="1493" height="263" key="GridCell.Tab.0.center" timestamp="1576015093632">
+    <state width="1493" height="263" key="GridCell.Tab.0.bottom/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1576015717982" />
+    <state width="1493" height="263" key="GridCell.Tab.0.center" timestamp="1576015717982">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="263" key="GridCell.Tab.0.center/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1576015093632" />
-    <state width="1493" height="263" key="GridCell.Tab.0.left" timestamp="1576015093632">
+    <state width="1493" height="263" key="GridCell.Tab.0.center/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1576015717982" />
+    <state width="1493" height="263" key="GridCell.Tab.0.left" timestamp="1576015717982">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="263" key="GridCell.Tab.0.left/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1576015093632" />
-    <state width="1493" height="263" key="GridCell.Tab.0.right" timestamp="1576015093632">
+    <state width="1493" height="263" key="GridCell.Tab.0.left/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1576015717982" />
+    <state width="1493" height="263" key="GridCell.Tab.0.right" timestamp="1576015717982">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="263" key="GridCell.Tab.0.right/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1576015093632" />
+    <state width="1493" height="263" key="GridCell.Tab.0.right/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1576015717982" />
     <state x="279" y="57" key="SettingsEditor" timestamp="1576011359722">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="279" y="57" key="SettingsEditor/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1576011359722" />
-    <state x="477" y="239" key="com.intellij.ide.util.TipDialog" timestamp="1576010567226">
+    <state x="477" y="239" key="com.intellij.ide.util.TipDialog" timestamp="1576016985437">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="477" y="239" key="com.intellij.ide.util.TipDialog/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1576010567226" />
+    <state x="477" y="239" key="com.intellij.ide.util.TipDialog/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1576016985437" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Summer2019OnlineTestNGSeleniumProject$C__Users_nshal_IdeaProjects_Summer2019OnlineTestNGSeleniumProject_smoke_test_xml.ic" NAME="$PROJECT_DIR$/smoke_test.xml Coverage Results" MODIFIED="1575939386292" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />

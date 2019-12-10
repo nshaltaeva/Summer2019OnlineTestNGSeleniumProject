@@ -7,6 +7,7 @@ import org.testng.annotations.Optional;
 import org.testng.annotations.Test;
 import pages.LoginPage;
 import tests.TestBase;
+import utils.BrowserUtils;
 import utils.Driver;
 import utils.ExcelUtil;
 
@@ -14,21 +15,24 @@ import java.util.Map;
 
 public class LoginTestsWithExcel extends TestBase {
 
+    //username  password   firstname  lastname   result
     @Test(dataProvider = "credentials", description = "Login with different credentials")
-    public void loginTest(String username, String password, String firstName, String lastName, String result){
-        extentTest = extentReports.createTest("Login as " + username);
-        if (username.equals("username")){
-            throw new SkipException("failed");
+    public void loginTest(String username, String password, String firstName, String lastName, String result) {
+        //is must because we will ge null pointer exception
+        extentTest = extentReports.createTest("Login as "+username);
+        if(username.equals("username")){
+            //will make test skipped
+            //it will not fail
+            //because first row is dedicated to column names
+            throw new SkipException("Test was skipped because it's first row!");
         }else{
             LoginPage loginPage = new LoginPage();
-            loginPage.login(username,password);
-            loginPage.getPageSubTitle();
-            Assert.assertEquals(Driver.get().getTitle(),"Dashboard");
+            loginPage.login(username, password);
+            //put here wait for title to be "Dashboard"
+            BrowserUtils.waitForPageTitle("Dashboard");
+            Assert.assertEquals(Driver.get().getTitle(), "Dashboard");
             extentTest.pass("Login test passed for user "+username);
         }
-
-
-
     }
 
 

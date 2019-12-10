@@ -154,6 +154,14 @@ public class BrowserUtils {
         }
     }
 
+    /**
+     * Wait for proper page title
+     * @param pageTitle
+     */
+    public static void waitForPageTitle(String pageTitle){
+        WebDriverWait wait = new WebDriverWait(Driver.get(), 10);
+        wait.until(ExpectedConditions.titleIs(pageTitle));
+    }
 
     public static void main(String[] args) {
         System.out.println(System.getProperty("user.dir"));
